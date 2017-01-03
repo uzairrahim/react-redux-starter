@@ -1,0 +1,38 @@
+@import './_props';
+
+.text {
+
+	font-family: $primary-font;
+	font-size: 14px;
+	font-weight: 400;
+	color: $black;
+
+	// Color
+	&.black { color: $black !important; }
+	&.blue  { color: $blue !important;  }
+	&.gray  { color: $gray !important;  }
+	&.green { color: $green !important; }
+	&.red   { color: $red !important;   }
+	&.white { color: $white !important; }
+
+	// Family
+	&.secondary { font-family: $secondary-font }
+
+	// Size
+	&.tiny    { font-size: 10px !important; }
+	&.small   { font-size: 12px !important; }
+	&.medium  { font-size: 16px !important; }
+	&.large   { font-size: 18px !important; }
+	&.x-large { font-size: 22px !important; }
+
+	// Transform
+	&.capitalize { text-transform: capitalize !important; }
+	&.lowercase  { text-transform: lowercase !important;  }
+	&.uppercase  { text-transform: uppercase !important;  }
+
+	// Weight
+
+	&.thin  { font-weight: 300 }
+	&.thick { font-weight: 700 }
+
+}

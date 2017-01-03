@@ -1,0 +1,7 @@
+// Border
+@mixin border-normal($type: solid) { border: $border-size $type $border-color; }
+@mixin border-medium($type: solid) { border: $border-size-medium $type $border-color; }
+@mixin border-thick ($type: solid) { border: $border-size-thick $type $border-color; }
+
+//Box Shadow
+@mixin box-shadow($opacity: 0.25) { box-shadow: 0px 0px 4px 0 rgba(0,0,0,$opacity); }
